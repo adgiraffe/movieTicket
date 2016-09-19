@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE configuration     
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"     
+"http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.movie.domain.MovieBean"  alias="mvo"/>
+	</typeAliases>
+	<typeAliases>
+		<typeAlias type="com.movie.domain.CustomerBean"  alias="cvo"/>
+	</typeAliases>
+	<typeAliases>
+		<typeAlias type="com.movie.domain.TheaterBean"  alias="tvo"/>
+	</typeAliases>
+		<typeAliases>
+		<typeAlias type="com.movie.domain.AdminBean"  alias="avo"/>
+	</typeAliases>
+</configuration>
+
